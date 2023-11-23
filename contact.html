@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .card {
+  box-shadow: 0 4px 8px 0 rgba(200, 23, 23, 0.2);
+  background-color: silver;
+  border-radius: 15%;
+  transition: 0.3s;
+  width: 70%;
+  padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+  
+  
+  <a href="index.html">Home</a> 
+
+    <a href="./education.html">Education</a>
+    
+    <a href="./work.html">Work Experience</a>
+    
+    <a href="./contact.html">Contac Me</a>
+    <hr>
+
+    <h1>Contac Me</h1>
+  
+  
+    <div class="card">
+
+
+      <form >
+        <p>Enter your info</p>
+        <label for="name">your name</label><br>
+        <input type="text" id="name" name="name" style="width: 80%">
+        
+        <br>
+
+        <label for="gmail">your e-mail</label><br>
+        <input type="text" id="gmail" name="gmail" style="width: 80%">
+        
+        <br>
+
+        <label for="Gender">Gender :</label><br>
+        <select name="Gender" id="Gender" style="width: 80%" >
+          <optgroup disabled selected="">please select</optgroup>
+          <option value="maie">maie</option>
+          <option value="female">female</option>
+          <option value="other">other..</option>
+        </select>
+        <br>
+
+        <label for="text">massage</label><br>
+        <textarea id="text" name="text" placeholder="text" cols="30" rows="10"></textarea>
+        <br>
+        
+          <br>
+
+          
+        <button type="button" >Send</button>
+        <button type="button" >Clear</button>
+        
+      </form>
+    
+ 
+  </div>
+</body>
+</html>
